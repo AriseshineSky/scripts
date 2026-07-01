@@ -1,7 +1,3 @@
 #!/bin/bash
 
-sleep 10
-
-#xmodmap ~/.Xmodmap &
-fcitx5 &
-/bin/bash ~/scripts/setxmodmap-colemak.sh &
+~/scripts/start-fcitx5.sh --check &
