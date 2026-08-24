@@ -25,7 +25,7 @@ close_music() {
 
 open_music() {
     mpd
-    st -g $(st_geometry top_right 50 10) -A 0.7 -t music -c FN -e 'ncmpcpp' &
+    st -A 0.7 -t music -c noborder -e 'ncmpcpp' &
     st -A 0.7 -c FN -g $(st_geometry top_right 25 10 -50 0 -1) -e cava &
 }
 
