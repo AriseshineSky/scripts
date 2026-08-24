@@ -1,6 +1,5 @@
 #!/bin/bash
 
-/bin/bash ~/scripts/dwm-status.sh &
 /bin/bash ~/scripts/wp-autochange.sh &
 picom --config ~/scripts/config/picom.conf -b
 /bin/bash ~/scripts/tap-to-click.sh &
